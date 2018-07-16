@@ -1,0 +1,58 @@
+<style>
+body {margin:0;}
+<body background="marble.png">
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FF66B2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+}
+
+/*li a:hover:not(.active) {
+    background-color: white;*/
+}
+
+.active {
+    background-color: white;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">About me</a></li>
+  <li><a href="contact.asp">Projects achieved</a></li>
+  <li><a href="about.asp">More</a></li>
+</ul>
+
+<div style="padding:20px;margin-top:30px;background-color:#A0A0A0;height:1500px;">
+<h1>hh</h1>
+<h2>mwahahah</h2>
+<h2>hahahahaha</h2>
+
+<p>Some text some text some text some text..</p>
+<p>Some text some text some text some text..</p>
+<p>Some text some text some text some text..</p>
+<p>Some text some text some text some text..</p>
+<p>Some text some text some text some text..</p>
+<p>Some text some text some text some text..</p>
+<p>Some text some text some text some text..</p>
+</div>

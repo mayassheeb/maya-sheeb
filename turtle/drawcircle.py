@@ -1,0 +1,22 @@
+import turtle
+turtle.shape("turtle")
+turtle.speed(20) 
+turtle.pensize(10)
+def draw_circle(color,radius):
+	turtle.fillcolor(color)
+	turtle.begin_fill()
+	turtle.circle(radius)
+	turtle.end_fill()
+	turtle.left(30)
+draw_circle("red",100)
+draw_circle("orange",92)
+draw_circle("yellow",100)
+draw_circle("green",100)
+draw_circle("blue",100)
+draw_circle("pink",100)
+draw_circle("purple",100)
+draw_circle("lightblue",100)
+draw_circle("lightgreen",100)
+draw_circle("lightpink",100)
+
+turtle.exitonclick()
